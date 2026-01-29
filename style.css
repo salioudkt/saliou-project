@@ -1,0 +1,162 @@
+/* ===== POLICE SIMPLE ===== */
+@import url('https://fonts.googleapis.com/css2?family=Arial:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+/* ===== HEADER ===== */
+header {
+  background-color: #1e3a5f;
+  color: white;
+  padding: 20px 0 40px;
+}
+
+/* ===== NAVIGATION ===== */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* ===== INTRO ===== */
+.intro {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.intro h1 {
+  font-size: 2rem;
+}
+
+.intro p {
+  font-size: 1.1rem;
+  color: #dce3ea;
+}
+
+.intro img {
+  margin-top: 20px;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+/* ===== SECTIONS ===== */
+section {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+h2 {
+  color: #1e3a5f;
+  margin-bottom: 15px;
+}
+
+/* ===== A PROPOS ===== */
+
+
+#apropos ul {
+  list-style: none;
+  display: flex; 
+  flex-wrap: wrap;
+  gap: 15px; 
+  padding: 0;
+  margin-top: 15px;
+}
+
+#apropos ul li {
+  background-color: #1e3a5f;
+  color: white;
+  padding: 10px 15px; 
+  border-radius: 20px; 
+  font-weight: 500;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+#apropos ul li:hover {
+  transform: translateY(-3px);
+  background-color: #00ffd5;
+  cursor: default;
+}
+
+
+/* ===== PROJETS ===== */
+.projets-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.projet {
+  flex: 1;
+  min-width: 260px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+/* ===== CONTACT ===== */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #1e3a5f;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #16304d;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  background-color: #1e3a5f;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.socials {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 0;
+}
+
+.socials a {
+  color: white;
+  text-decoration: none;
+}

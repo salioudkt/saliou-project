@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header et navigation -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="intro">
+      <h1>Bonjour, je suis Serigne Saliou Diakhaté</h1>
+      <p>Développeur Web - IT / Étudiant en Informatique</p>
+      <img src="photo.JPEG" alt="Photo de Serigne saliou">
+    </div>
+  </header>
+
+  <!-- Section À propos -->
+  <section id="apropos">
+    <h2>À propos de moi</h2>
+   <p>
+    Je suis passionné par l'informatique et les technologies réseau et cloud. 
+    Actuellement en formation en administration réseaux et systèmes, je développe mes compétences en HTML, CSS, JavaScript, ainsi qu’en gestion d’infrastructures et cloud computing. 
+J   e suis motivé à concevoir des solutions fiables et performantes, tout en explorant de nouvelles technologies.
+    </p>
+
+      <br>
+      <br>
+
+    <h3>COMPETENCES</h3>
+    <ul>
+      <li>HTML & CSS</li>
+      <li>JavaScript</li>
+      <li>reseaux et systemes</li>
+      <li>Cybersec</li>
+      <li>cloud computing</li>
+      <li>Maintenance</li>
+    </ul>
+  </section>
+<br>
+  <!-- Section Projets -->
+  <section id="projets">
+    <h2>Mes Projets</h2>
+    <div class="projets-container">
+      <div class="projet">
+        <h3>Déploiement d'un VPN au sein d'un réseau</h3>
+        <p>Un VPN (Virtual Private Network) est une solution qui permet d'établir un 
+            tunnel sécurisé entre un utilisateur distant et un réseau privé. 
+            Grâce au chiffrement des données et à l’authentification des utilisateurs, 
+            le VPN protège les échanges contre les interceptions et les attaques. Il est largement 
+            utilisé pour le télétravail, l’accès 
+            distant aux ressources internes et 
+            la connexion sécurisée entre plusieurs sites d'une organisation.
+        </p>
+      </div>
+      <div class="projet">
+        <h3>Création d'un site web commercial pour un restaurant</h3>
+        <p>La mise en place d'un site web commercial pour un restaurant 
+            consiste à créer une plateforme en ligne permettant de présenter l'établissement, 
+            son menu, ses services et ses informations pratiques. Le site facilite la communication
+             avec les clients, améliore la visibilité du restaurant et permet, selon les fonctionnalités, la réservation en ligne ou la commande à distance.
+             Il constitue un outil essentiel
+              de promotion et de développement de l'activité commerciale.</p>
+      </div>
+       <div class="projet">
+        <h3>Déploiement et configuration d'un serveur Linux</h3>
+        <p>Installation et configuration d'un serveur Linux (Ubuntu ou CentOS) pour héberger des services internes.
+          <br>
+          Installation des packages nécessaires (Apache, MySQL, PHP).
+          <br>
+          Configuration des utilisateurs et permissions.
+          <br>
+          Mise en place de sauvegardes automatiques.
+          <br>
+          Test de la sécurité avec des permissions et firewall basique.</p>
+      </div>
+      <div class="projet">
+        <h3>Mise en place d'un serveur web sécurisé</h3>
+        <p>Installation d'un serveur web (Apache ou Nginx) avec sécurité renforcée.
+          <br>
+          Configuration HTTPS avec certificat SSL/TLS.
+          <br>
+          Mise en place de pare-feu et règles de sécurité.
+          <br>
+          Test des vulnérabilités basiques.
+          <br>
+          Déploiement d'un site web de test ou d'une application web interne.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Contact -->
+  <section id="contact">
+    <h2>Contactez-moi</h2>
+    <form action="diakatesaliou916@gmail.com" method="post" enctype="text/plain">
+      <label for="nom">Nom :</label>
+      <input type="text" id="nom" name="nom" required>
+
+      <label for="email">Email :</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message :</label>
+      <textarea id="message" name="message" rows="3" required></textarea>
+
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Suivez-moi sur les réseaux sociaux :</p>
+    <ul class="socials">
+      <li><a href="#">LinkedIn</a></li>
+      <li><a href="#">GitHub</a></li>
+      <li><a href="#">Twitter</a></li>
+    </ul>
+    <p>&copy; 2026 Saliou Diakhaté. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
